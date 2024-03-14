@@ -1,8 +1,9 @@
-# React + Vite
+# How to Run?
+Create a `.env` file on root directory and paste the following, 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+```
+VITE_WEATHERBIT_MY_API_KEY=weather_bit_key_here
+VITE_UNSPLASH_MY_API_KEY=unsplash_Key_here
+```
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+simple run `npm run dev`
